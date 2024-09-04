@@ -5,9 +5,9 @@ import HeroSection from "@/Components/HeroSection/HeroSection";
 
 export default function Home() {
   return (
-    <Layout>
+    <main>
       <Header />
       <HeroSection />
-    </Layout>
+    </main>
   );
 }
