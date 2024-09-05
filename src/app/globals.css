@@ -35,10 +35,18 @@
     color: #fff;
     background: #0d0e1a;
   }
-}
+  .custom-gradient-border {
+    position: relative;
+    padding: 2px;
+    background: linear-gradient(to bottom, #fff, #2f2f2f);
+    border-radius: 12px;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .custom-gradient-border > .content {
+    background: linear-gradient(45deg, #613db9, #d86829);
+    border-radius: 10px;
+    background-clip: padding-box;
+    position: relative;
+    z-index: 1;
   }
 }
