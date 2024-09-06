@@ -1,8 +1,8 @@
 import React from "react";
-import Layout from "../Layout/Layout";
-import BackgroundHero from "../../../public/HeroSection/heroSectionBackground.jpg";
+import Layout from "../../Layout/Layout";
+import BackgroundHero from "../../../../public/HeroSection/heroSectionBackground.jpg";
 import Image from "next/image";
-import NumberSection from "./NumberKey/NumberSection";
+import NumberSection from "../NumberKey/NumberSection";
 
 const HeroSection = () => {
   return (
