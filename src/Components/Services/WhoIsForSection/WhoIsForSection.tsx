@@ -23,7 +23,7 @@ const WhoIsForSection = () => {
         <div className="flex gap-4 border-md ">
           {SectorActivities.map((activity, index) => (
             <div className="flex flex-col custom-gradient-border">
-              <div className=" bg-[#15172c] p-5 gap-2 rounded-md content-sector ">
+              <div className="p-5 gap-2 rounded-md content-sector ">
                 <Image
                   src={activity.icon}
                   alt=""
